@@ -59,7 +59,7 @@ class Login extends React.Component {
   // };
 
   render() {
-    this.logged();
+    // this.logged();
     return (
       <Container
         style={{
