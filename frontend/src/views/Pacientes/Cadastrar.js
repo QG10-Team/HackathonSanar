@@ -19,7 +19,7 @@ import {
 
 import PageTitle from "../../components/common/PageTitle";
   
-class Cadastro extends Component {
+class Cadastrar extends Component {
     constructor(props) {
         super(props);
 
@@ -41,7 +41,7 @@ class Cadastro extends Component {
         return (
             <Container fluid className="main-content-container px-4 pb-4"> 
                 <Row noGutters className="page-header py-4">
-                    <PageTitle sm="4" title="Cadastro" subtitle="Pacientes" className="text-sm-left" />
+                    <PageTitle sm="4" title="Cadastrar" subtitle="Pacientes" className="text-sm-left" />
                 </Row>       
                 <Card small className="mb-4">
                     <ListGroup flush>
@@ -133,4 +133,4 @@ class Cadastro extends Component {
     }
 };
 
-export default Cadastro;
+export default Cadastrar;

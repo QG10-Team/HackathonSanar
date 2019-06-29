@@ -10,7 +10,6 @@ import PageTitle from "../../components/common/PageTitle";
 
 import Editar from './Editar';
 import Detalhe from './Detalhe';
-import Atendimento from './Atendimento/Editar';
 
 class Informacoes extends Component{
     
@@ -19,19 +18,14 @@ class Informacoes extends Component{
         return(
             <Container fluid className="main-content-container px-4">
                 <Row noGutters className="page-header py-4">
-                    <PageTitle title="User Profile" subtitle="Overview" md="12" className="ml-sm-auto mr-sm-auto" />
+                    <PageTitle title="Paciente" subtitle="Pacientes" md="12" className="ml-sm-auto mr-sm-auto" />
                 </Row>
                 <Row>
                     <Col lg="4">
                         <Detalhe />
                     </Col>
                     <Col lg="8">
-                    <Row>
                         <Editar />
-                    </Row>
-                    <Row>
-                        <Atendimento />
-                    </Row>
                     </Col>
                 </Row>
             </Container>

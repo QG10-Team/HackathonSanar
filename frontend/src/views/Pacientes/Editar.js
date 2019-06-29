@@ -18,7 +18,7 @@ import {
     Row
   } from "shards-react";
 
-class Cadastro extends Component {
+class Cadastrar extends Component {
     constructor(props) {
         super(props);
 
@@ -134,4 +134,4 @@ class Cadastro extends Component {
     }
 };
 
-export default Cadastro;
+export default Cadastrar;

@@ -6,9 +6,9 @@ import { DefaultLayout } from "./layouts";
 
 // Route Views
 import Errors from "./views/Errors";
-import CadastroPacientes from './views/Pacientes/Cadastro';
+import CadastrarPacientes from './views/Pacientes/Cadastrar';
 import Lista from './views/Pacientes/Lista/Lista';
-import Atendimento from './views/Pacientes/Atendimento/Cadastro';
+import Atendimento from './views/Pacientes/Atendimento/Cadastrar';
 import Informacoes from './views/Pacientes/Informacoes';
 
 export default [
@@ -19,9 +19,9 @@ export default [
     component: () => <Redirect to="/blog-overview" />
   },
   {
-    path: "/cadastro-paciente",
+    path: "/Cadastrar-paciente",
     layout: DefaultLayout,
-    component: CadastroPacientes
+    component: CadastrarPacientes
   },
   {
     path: "/pacientes",
