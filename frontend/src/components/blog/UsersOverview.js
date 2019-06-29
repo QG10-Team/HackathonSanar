@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Row, Col, Card, CardHeader, CardBody, Button } from "shards-react";
+import { Row, Col, Card, CardHeader, CardBody } from "shards-react";
 
 import RangeDatePicker from "../common/RangeDatePicker";
 import Chart from "../../utils/chart";
@@ -98,12 +98,12 @@ class UsersOverview extends React.Component {
               <RangeDatePicker />
             </Col>
             <Col>
-              <Button
+              {/* <Button
                 size="sm"
                 className="d-flex btn-white ml-auto mr-auto ml-sm-auto mr-sm-0 mt-3 mt-sm-0"
               >
                 View Full Report &rarr;
-              </Button>
+              </Button> */}
             </Col>
           </Row>
           <canvas
@@ -181,7 +181,7 @@ UsersOverview.defaultProps = {
         pointHoverRadius: 3
       },
       {
-        label: "Past Month",
+        label: "Mês passado",
         fill: "start",
         data: [
           380,

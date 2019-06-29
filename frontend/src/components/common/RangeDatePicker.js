@@ -46,7 +46,7 @@ class RangeDatePicker extends React.Component {
           size="sm"
           selected={this.state.startDate}
           onChange={this.handleStartDateChange}
-          placeholderText="Start Date"
+          placeholderText="Data inicial"
           dropdownMode="select"
           className="text-center"
         />
@@ -54,7 +54,7 @@ class RangeDatePicker extends React.Component {
           size="sm"
           selected={this.state.endDate}
           onChange={this.handleEndDateChange}
-          placeholderText="End Date"
+          placeholderText="Data final"
           dropdownMode="select"
           className="text-center"
         />

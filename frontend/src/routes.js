@@ -6,6 +6,7 @@ import { DefaultLayout } from "./layouts";
 
 // Route Views
 import Dashboard from "./views/dashboard";
+import Leitos from "./views/leitos";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
 import Errors from "./views/Errors";
@@ -24,6 +25,11 @@ export default [
     path: "/dashboard",
     layout: DefaultLayout,
     component: Dashboard
+  },
+  {
+    path: "/leitos",
+    layout: DefaultLayout,
+    component: Leitos
   },
   {
     path: "/user-profile-lite",
