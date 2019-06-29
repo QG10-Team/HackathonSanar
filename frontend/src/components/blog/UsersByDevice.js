@@ -106,20 +106,16 @@ UsersByDevice.propTypes = {
 };
 
 UsersByDevice.defaultProps = {
-  title: "Users by device",
+  title: "Status dos pacientes",
   chartData: {
     datasets: [
       {
         hoverBorderColor: "#ffffff",
         data: [68.3, 24.2, 7.5],
-        backgroundColor: [
-          "rgba(0,123,255,0.9)",
-          "rgba(0,123,255,0.5)",
-          "rgba(0,123,255,0.3)"
-        ]
+        backgroundColor: ["#17c671", "#ffb400", "#ff4169"]
       }
     ],
-    labels: ["Desktop", "Tablet", "Mobile"]
+    labels: ["Alta", "Estável", "Grave"]
   }
 };
 
