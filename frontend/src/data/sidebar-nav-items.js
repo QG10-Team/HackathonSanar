@@ -7,15 +7,15 @@ export default function() {
       htmlAfter: ""
     },
     {
+      title: "Pacientes",
+      htmlBefore: '<i class="material-icons">note_add</i>',
+      to: "/pacientes"
+    },
+    {
       title: "Leitos",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
       to: "/leitos"
     }
-    // {
-    //   title: "Add New Post",
-    //   htmlBefore: '<i class="material-icons">note_add</i>',
-    //   to: "/add-new-post"
-    // },
     // {
     //   title: "Forms & Components",
     //   htmlBefore: '<i class="material-icons">view_module</i>',
