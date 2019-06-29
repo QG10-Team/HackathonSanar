@@ -5,13 +5,11 @@ import { Redirect } from "react-router-dom";
 import { DefaultLayout } from "./layouts";
 
 // Route Views
-import BlogOverview from "./views/BlogOverview";
-import UserProfileLite from "./views/UserProfileLite";
-import AddNewPost from "./views/AddNewPost";
 import Errors from "./views/Errors";
-import ComponentsOverview from "./views/ComponentsOverview";
-import Tables from "./views/Tables";
-import BlogPosts from "./views/BlogPosts";
+import CadastroPacientes from './views/Pacientes/Cadastro';
+import Lista from './views/Pacientes/Lista/Lista';
+import Atendimento from './views/Pacientes/Atendimento/Cadastro';
+import Informacoes from './views/Pacientes/Informacoes';
 
 export default [
   {
@@ -21,38 +19,23 @@ export default [
     component: () => <Redirect to="/blog-overview" />
   },
   {
-    path: "/blog-overview",
+    path: "/cadastro-paciente",
     layout: DefaultLayout,
-    component: BlogOverview
+    component: CadastroPacientes
   },
   {
-    path: "/user-profile-lite",
+    path: "/pacientes",
     layout: DefaultLayout,
-    component: UserProfileLite
+    component: Lista
   },
   {
-    path: "/add-new-post",
+    path: "/atendimento",
     layout: DefaultLayout,
-    component: AddNewPost
+    component: Atendimento
   },
   {
-    path: "/errors",
+    path: "/informacoes",
     layout: DefaultLayout,
-    component: Errors
-  },
-  {
-    path: "/components-overview",
-    layout: DefaultLayout,
-    component: ComponentsOverview
-  },
-  {
-    path: "/tables",
-    layout: DefaultLayout,
-    component: Tables
-  },
-  {
-    path: "/blog-posts",
-    layout: DefaultLayout,
-    component: BlogPosts
+    component: Informacoes
   }
 ];
