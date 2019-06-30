@@ -12,6 +12,10 @@ import DetalheAtendimento from "./Detalhe";
 import DetalheProcedimento from "../Procedimentos/Detalhe";
 
 class Visualizar extends Component{
+    state = {
+        atendimento: [],
+        procedimento: []
+    }
     
     render() {
 
@@ -22,10 +26,19 @@ class Visualizar extends Component{
                 </Row>
                 <Row>
                     <Col lg="6">
-                        <DetalheAtendimento />
+                        <DetalheAtendimento
+                            status={this.state.atendimento.status} 
+                            paciente={this.state.atendimento.paciente}
+                            nivelAtendimento={this.state.atendimento.nivelAtendimento}
+                            dataAtendimento={this.state.atendimento.dataAtendimento}/>
                     </Col>
                     <Col lg="6">
-                        <DetalheProcedimento />
+                        <DetalheProcedimento 
+                            status={this.state.procedimento.status}
+                            descricao={this.state.procedimento.descricao}
+                            horario={this.state.procedimento.horario}
+                            dataProcedimento={this.state.procedimento.dataProcedimento}
+                            observacoes={this.state.procedimento.observacoes}/>
                     </Col>
                 </Row>
             </Container>

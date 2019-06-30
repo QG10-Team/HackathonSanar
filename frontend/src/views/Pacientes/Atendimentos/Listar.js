@@ -19,7 +19,12 @@ class Listar extends Component {
     render() {
 
         const listaAtendimento = this.state.atendimento.map(atendimento => (
-            <Atendimento />
+            <Atendimento 
+                paciente={this.state.atendimento.paciente}
+                leito={this.state.atendimento.leito} 
+                nivelAtendimento={this.state.atendimento.nivelAtendimento}
+                data={this.state.atendimento.data}
+                status={this.state.atendimento.status}/>
         ));
 
         return(
