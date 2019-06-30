@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\2e761091d6cdffeed934a15a38a3eeb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7cd407564ebddf1e169603504f5cdd56\AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:17:1-56:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b8d12d5f0b0d92ae61fc60c5895b5895\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\082b5d3bb441f0d691c95e50267d3612\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b001c1d76c7442951cfa7c03186d20c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3c390a83de9cf4f3cab863594ee20dc5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\619dd6d4edeb73dd48ab5e60d55095ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\de9631a0746fbc7a104b2b96c78f0d99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\422580e6a13dda751a891bfd4d57ed4e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b5271ba7f1a3a29e94e69a07994871dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\e5a702209c6f4e95f41e407f05b448c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\6468466149b7c9ee86c12d5e7b8698af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\4ca3c4bfd07c1724d76800d4c7ee07c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a1428b473956f80613d8d0ccd9dcbb13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\885030fd246502e8a0bf511ee6a8234b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9856ff04d0ef7be6f036f93477e38834\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\803cec495ed6cf5704f847c36d321603\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\16d13868beba2e2755c82586cdb72e3e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\66f873ec3fdae4ab0d03a2912eb0d74f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\844c38116e4325e8a14badf8fbd1de30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\f7237cace3ecb5bcfbdbbead836f608b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9afaa2ee8e0302a3693af00fb027d8a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7070f3f0344cb90d0cbb6c7d6ed9c1f4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\07baf25e94dba2b85ee0c94eff720837\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\25b5c14e8f8d384cb06a53cfbec7417b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7a0ba4d6e7afea8202e4c54d23fd5a19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3be7cc2af80adc1e5b03fad9f3c676d8\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:3:11-46
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7cd407564ebddf1e169603504f5cdd56\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7cd407564ebddf1e169603504f5cdd56\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:46:5-54:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b8d12d5f0b0d92ae61fc60c5895b5895\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b8d12d5f0b0d92ae61fc60c5895b5895\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\803cec495ed6cf5704f847c36d321603\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\803cec495ed6cf5704f847c36d321603\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:12:13-39
+	android:label
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:10:13-34
+	android:roundIcon
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:11:13-58
+	android:icon
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:9:13-47
+	android:allowBackup
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:13:13-44
+activity#com.example.hackatonsanar.ListaAtendimento
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:14:9-15:20
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:14:19-51
+activity#com.example.hackatonsanar.readQrCode
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:16:9-17:20
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:16:19-45
+activity#com.example.hackatonsanar.MainActivity
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\2e761091d6cdffeed934a15a38a3eeb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\2e761091d6cdffeed934a15a38a3eeb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7cd407564ebddf1e169603504f5cdd56\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7cd407564ebddf1e169603504f5cdd56\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b8d12d5f0b0d92ae61fc60c5895b5895\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b8d12d5f0b0d92ae61fc60c5895b5895\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\082b5d3bb441f0d691c95e50267d3612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\082b5d3bb441f0d691c95e50267d3612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b001c1d76c7442951cfa7c03186d20c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b001c1d76c7442951cfa7c03186d20c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3c390a83de9cf4f3cab863594ee20dc5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3c390a83de9cf4f3cab863594ee20dc5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\619dd6d4edeb73dd48ab5e60d55095ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\619dd6d4edeb73dd48ab5e60d55095ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\de9631a0746fbc7a104b2b96c78f0d99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\de9631a0746fbc7a104b2b96c78f0d99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\422580e6a13dda751a891bfd4d57ed4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\422580e6a13dda751a891bfd4d57ed4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b5271ba7f1a3a29e94e69a07994871dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\b5271ba7f1a3a29e94e69a07994871dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\e5a702209c6f4e95f41e407f05b448c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\e5a702209c6f4e95f41e407f05b448c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\6468466149b7c9ee86c12d5e7b8698af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\6468466149b7c9ee86c12d5e7b8698af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\4ca3c4bfd07c1724d76800d4c7ee07c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\4ca3c4bfd07c1724d76800d4c7ee07c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a1428b473956f80613d8d0ccd9dcbb13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a1428b473956f80613d8d0ccd9dcbb13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\885030fd246502e8a0bf511ee6a8234b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\885030fd246502e8a0bf511ee6a8234b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9856ff04d0ef7be6f036f93477e38834\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9856ff04d0ef7be6f036f93477e38834\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\a12f6f18e0188797b23ee1d219ac2650\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\803cec495ed6cf5704f847c36d321603\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\803cec495ed6cf5704f847c36d321603\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\16d13868beba2e2755c82586cdb72e3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\16d13868beba2e2755c82586cdb72e3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\66f873ec3fdae4ab0d03a2912eb0d74f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\66f873ec3fdae4ab0d03a2912eb0d74f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\844c38116e4325e8a14badf8fbd1de30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\844c38116e4325e8a14badf8fbd1de30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\f7237cace3ecb5bcfbdbbead836f608b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\f7237cace3ecb5bcfbdbbead836f608b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9afaa2ee8e0302a3693af00fb027d8a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\9afaa2ee8e0302a3693af00fb027d8a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7070f3f0344cb90d0cbb6c7d6ed9c1f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7070f3f0344cb90d0cbb6c7d6ed9c1f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\07baf25e94dba2b85ee0c94eff720837\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\07baf25e94dba2b85ee0c94eff720837\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\25b5c14e8f8d384cb06a53cfbec7417b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\25b5c14e8f8d384cb06a53cfbec7417b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7a0ba4d6e7afea8202e4c54d23fd5a19\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\7a0ba4d6e7afea8202e4c54d23fd5a19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3be7cc2af80adc1e5b03fad9f3c676d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\3be7cc2af80adc1e5b03fad9f3c676d8\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fernando\Desktop\hackaton sanar\HackathonSanar\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fernando\.gradle\caches\transforms-2\files-2.1\d3a8afb387ca5a8bbf6d207ff29a8846\AndroidManifest.xml:48:13-74
