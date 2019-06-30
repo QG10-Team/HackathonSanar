@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  // baseURL: ""
+  baseURL: "http://develop.planoaeventos.com.br/api"
 });
 
 API.interceptors.request.use(async config => {
@@ -21,16 +21,18 @@ API.interceptors.response.use(
     return response;
   },
   function(error) {
-    if (400 === error.response.status) {
-      return Promise.resolve(error.response);
-    }
+    return Promise.resolve(error.response);
 
-    // if (401 === error.response.status) {
-    //   localStorage.clear();
-    //   window.onload();
+    // if (400 === error.response.status) {
+    //   return Promise.resolve(error.response);
     // }
 
-    return Promise.reject(error.response);
+    // // if (401 === error.response.status) {
+    // //   localStorage.clear();
+    // //   window.onload();
+    // // }
+
+    // return Promise.reject(error.response);
   }
 );
 
