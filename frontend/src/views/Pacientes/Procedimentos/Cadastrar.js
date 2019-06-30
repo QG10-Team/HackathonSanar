@@ -18,6 +18,7 @@ import {
   } from "shards-react";
 
 import PageTitle from "../../../components/common/PageTitle";
+import API from "../../../services/api";
   
 class Cadastrar extends Component {
     constructor(props) {
@@ -25,6 +26,14 @@ class Cadastrar extends Component {
 
         this.state = {
             startDate: undefined,
+            procedimento: {
+                id_procedimento: undefined,
+                descricao: undefined,
+                observacao: undefined,
+                status: undefined,
+                data_criacao: undefined,
+                data_validacao: undefined
+            }
         };
 
         this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -36,6 +45,15 @@ class Cadastrar extends Component {
             ...{ startDate: new Date(value) }
         });
     }
+
+    handleSubmit = async e => {
+        const response = await API.get(
+          `/cadastrar_procedimento?descricao=${this.state.procedimento.descricao}&observacao=${this.state.procedimento.observacao}&status=${this.state.procedimento.status}&data_criacao=${this.state.procedimento.data_criacao}&data_validacao=${this.state.procedimento.data_validacao}`
+        );
+        console.log(response);
+    
+        return this.props.history.push("/procedimento");
+      };
 
     render() {
 
@@ -99,7 +117,7 @@ class Cadastrar extends Component {
                                                 <FormTextarea id="feObservacoes" rows="5" />
                                             </Col>
                                         </Row>
-                                        <Button theme="accent">Cadastrar</Button>
+                                        <Button theme="accent" onClick={() => this.handleSubmit()}>Cadastrar</Button>
                                     </Form>
                                 </Col>
                             </Row>
