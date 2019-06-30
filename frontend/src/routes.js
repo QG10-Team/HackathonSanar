@@ -51,12 +51,12 @@ export default [
     component: Informacoes
   },
   {
-    path: "/atendimento/cadastrar",
+    path: "/atendimento/cadastrar/:id",
     layout: DefaultLayout,
     component: CadastrarAtendimento
   },
   {
-    path: "/atendimento/editar",
+    path: "/atendimento/editar/:id",
     layout: DefaultLayout,
     component: EditarAtendimento
   },
@@ -79,5 +79,5 @@ export default [
     path: "/procedimento/listar",
     layout: DefaultLayout,
     component: ListarProcedimento
-  },
+  }
 ];

@@ -31,7 +31,7 @@ class Leitos extends React.Component {
     const responseLeitos = await API.get("/leito_lista");
     console.log(responsePacientes.data, responseLeitos.data);
     this.setState({
-      leitos: responseLeitos.data,
+      leitos: responseLeitos.data.empty !== 1 ? responseLeitos.data : [],
       pacientes: responsePacientes.data
     });
   }
