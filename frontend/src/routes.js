@@ -14,6 +14,7 @@ import Informacoes from "./views/Pacientes/Informacoes";
 import CadastrarAtendimento from "./views/Pacientes/Atendimentos/Cadastrar";
 import EditarAtendimento from "./views/Pacientes/Atendimentos/Editar";
 import ListarAtendimento from "./views/Pacientes/Atendimentos/Listar";
+import VisualizarAtendimento from "./views/Pacientes/Atendimentos/Visualizar";
 import CadastrarProcedimento from "./views/Pacientes/Procedimentos/Cadastrar";
 import EditarProcedimento from "./views/Pacientes/Procedimentos/Editar";
 import ListarProcedimento from "./views/Pacientes/Procedimentos/Listar";
@@ -64,6 +65,11 @@ export default [
     path: "/atendimento/listar",
     layout: DefaultLayout,
     component: ListarAtendimento
+  },
+  {
+    path: "/atendimento/visualizar",
+    layout: DefaultLayout,
+    component: VisualizarAtendimento
   },
   {
     path: "/procedimento/cadastrar",

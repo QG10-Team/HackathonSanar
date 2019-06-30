@@ -29,11 +29,10 @@ class Leitos extends React.Component {
   async componentDidMount() {
     const responsePacientes = await API.get("/espera");
     const responseLeitos = await API.get("/leito_lista");
-    console.log(responsePacientes.data, responseLeitos.data);
-    this.setState({
-      leitos: responseLeitos.data,
-      pacientes: responsePacientes.data
-    });
+    // this.setState({
+      // leitos: responseLeitos.data,
+      // pacientes: responsePacientes.data
+    // });
   }
 
   handlePriorityColor = key => {
