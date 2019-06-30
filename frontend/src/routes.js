@@ -8,10 +8,15 @@ import { DefaultLayout } from "./layouts";
 import Dashboard from "./views/dashboard";
 import Leitos from "./views/leitos";
 // import Errors from "./views/Errors";
-import CadastroPacientes from "./views/Pacientes/Cadastro";
+import CadastrarPacientes from "./views/Pacientes/Cadastrar";
 import Lista from "./views/Pacientes/Lista/Lista";
-import Atendimento from "./views/Pacientes/Atendimento/Cadastro";
 import Informacoes from "./views/Pacientes/Informacoes";
+import CadastrarAtendimento from "./views/Pacientes/Atendimentos/Cadastrar";
+import EditarAtendimento from "./views/Pacientes/Atendimentos/Editar";
+import ListarAtendimento from "./views/Pacientes/Atendimentos/Listar";
+import CadastrarProcedimento from "./views/Pacientes/Procedimentos/Cadastrar";
+import EditarProcedimento from "./views/Pacientes/Procedimentos/Editar";
+import ListarProcedimento from "./views/Pacientes/Procedimentos/Listar";
 
 export default [
   {
@@ -36,18 +41,43 @@ export default [
     component: Lista
   },
   {
-    path: "/cadastro-paciente",
+    path: "/pacientes/cadastrar",
     layout: DefaultLayout,
-    component: CadastroPacientes
-  },
-  {
-    path: "/atendimento",
-    layout: DefaultLayout,
-    component: Atendimento
+    component: CadastrarPacientes
   },
   {
     path: "/informacoes",
     layout: DefaultLayout,
     component: Informacoes
-  }
+  },
+  {
+    path: "/atendimento/cadastrar",
+    layout: DefaultLayout,
+    component: CadastrarAtendimento
+  },
+  {
+    path: "/atendimento/editar",
+    layout: DefaultLayout,
+    component: EditarAtendimento
+  },
+  {
+    path: "/atendimento/listar",
+    layout: DefaultLayout,
+    component: ListarAtendimento
+  },
+  {
+    path: "/procedimento/cadastrar",
+    layout: DefaultLayout,
+    component: CadastrarProcedimento
+  },
+  {
+    path: "/procedimento/editar",
+    layout: DefaultLayout,
+    component: EditarProcedimento
+  },
+  {
+    path: "/procedimento/listar",
+    layout: DefaultLayout,
+    component: ListarProcedimento
+  },
 ];

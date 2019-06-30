@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import {
     Button,
     Card,
-    CardHeader,
     Col,
     Container,
     DatePicker,
@@ -18,13 +17,14 @@ import {
     Row
   } from "shards-react";
 
+import PageTitle from "../../components/common/PageTitle";
+  
 class Cadastrar extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            startDate: undefined,
-            paciente: []
+            startDate: undefined
         };
 
         this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -39,11 +39,11 @@ class Cadastrar extends Component {
 
     render() {
         return (
-            <Container fluid className="main-content-container px-4 pb-4">     
+            <Container fluid className="main-content-container px-4 pb-4"> 
+                <Row noGutters className="page-header py-4">
+                    <PageTitle sm="4" title="Cadastrar" subtitle="Pacientes" className="text-sm-left" />
+                </Row>       
                 <Card small className="mb-4">
-                    <CardHeader className="border-bottom">
-                        <h6 className="m-0">Editar</h6>
-                    </CardHeader> 
                     <ListGroup flush>
                         <ListGroupItem className="p-3">
                             <Row>
@@ -56,7 +56,7 @@ class Cadastrar extends Component {
                                                 <FormInput
                                                     id="feNome"
                                                     placeholder="Nome"
-                                                    value={this.state.nome}
+                                                    value=""
                                                     onChange={() => {}}
                                                 />
                                             </Col>
@@ -67,7 +67,7 @@ class Cadastrar extends Component {
                                                     type="email"
                                                     id="feEmail"
                                                     placeholder="E-mail"
-                                                    value={this.state.email}
+                                                    value=""
                                                     onChange={() => {}}
                                                     autoComplete="email"
                                                 />
@@ -85,7 +85,6 @@ class Cadastrar extends Component {
                                                     placeholderText="Data de Nascimento"
                                                     dropdownMode="select"
                                                     className="text-center"
-                                                    value={this.state.dataNascimento}
                                                     /> 
                                                     <InputGroupAddon type="append">
                                                         <InputGroupText>
@@ -100,7 +99,7 @@ class Cadastrar extends Component {
                                                 <FormInput
                                                     id="fePeso"
                                                     placeholder="Peso"
-                                                    value={this.state.peso}
+                                                    value=""
                                                     onChange={() => {}}
                                                 />
                                             </Col>
@@ -110,7 +109,7 @@ class Cadastrar extends Component {
                                                 <FormInput
                                                     id="feAltura"
                                                     placeholder="Altura"
-                                                    value={this.state.altura}
+                                                    value=""
                                                     onChange={() => {}}
                                                 />
                                             </Col>
@@ -119,10 +118,10 @@ class Cadastrar extends Component {
                                             {/* Observacoes */}
                                             <Col md="12" className="form-group">
                                                 <label htmlFor="feObservacoes">Observações</label>
-                                                <FormTextarea id="feObservacoes" rows="5" value={this.state.observacoes} />
+                                                <FormTextarea id="feObservacoes" rows="5" />
                                             </Col>
                                         </Row>
-                                        <Button theme="accent">Atualizar</Button>
+                                        <Button theme="accent">Cadastrar</Button>
                                     </Form>
                                 </Col>
                             </Row>

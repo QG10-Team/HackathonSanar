@@ -7,8 +7,8 @@ import {
     Container,
     DatePicker,
     Form,
-    FormRadio,
-    FormSelect,
+    FormInput,
+    FormTextarea,
     InputGroup,
     InputGroupAddon,
     InputGroupText,
@@ -17,14 +17,15 @@ import {
     Row
   } from "shards-react";
 
-import PageTitle from "../../../components/common/PageTitle";
-  
-class Atendimento extends Component {
+import PageTitle from "../../../components/common/PageTitle";  
+
+class Editar extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
             startDate: undefined,
+            procedimento: []
         };
 
         this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -40,40 +41,50 @@ class Atendimento extends Component {
     render() {
 
         return (
-            <Container fluid className="main-content-container px-4 pb-4"> 
+            <Container fluid className="main-content-container px-4 pb-4">
                 <Row noGutters className="page-header py-4">
-                    <PageTitle sm="4" title="Atendimento" subtitle="Pacientes" className="text-sm-left" />
-                </Row>       
+                    <PageTitle sm="4" title="Editar" subtitle="Procedimento" className="text-sm-left" />
+                </Row>      
                 <Card small className="mb-4">
                     <ListGroup flush>
                         <ListGroupItem className="p-3">
                             <Row>
                                 <Col>
                                     <Form>
-                                        <Row form>
-                                            {/* Nivel de Atendimento */}
-                                            <Col md="3" className="form-group">
-                                                <label htmlFor="feNivelAtendimento">Nível de Atendimento</label>
-                                                <FormSelect>
-                                                    <option> .: Selecione :. </option>
-                                                    <option value='1'>Alta</option>
-                                                    <option value='2'>Estável</option>
-                                                    <option value='3'>Grave</option>
-                                                </FormSelect>
-                                            </Col>
-                                        </Row>
                                         <Row>
-                                            {/* Data do Atendimento */}
+                                            {/* Descricao */}
+                                            <Col md="6" className="form-group">
+                                                <label htmlFor="feDescricao">Descricao</label>
+                                                <FormInput
+                                                    id="feDescricao"
+                                                    placeholder="Descricao"
+                                                    value={this.state.procedimento.descricao}
+                                                    onChange={() => {}}
+                                                />
+                                            </Col>
+                                            {/* Horario */}
                                             <Col md="3" className="form-group">
-                                                <label htmlFor="feDataAtendimento">Data de Atendimento</label>
+                                                <label htmlFor="feHora">Horário</label>
+                                                <FormInput
+                                                    id="feHora"
+                                                    placeholder="Hora"
+                                                    value={this.state.procedimento.horario}
+                                                    onChange={() => {}}
+                                                    type="time"
+                                                />
+                                            </Col>
+                                            {/* Data do Procedimento */}
+                                            <Col md="3" className="form-group">
+                                                <label htmlFor="feDataProcedimento">Data do Procedimento</label>
                                                 <InputGroup>
                                                     <DatePicker
                                                     size="sm"
                                                     selected={this.state.startDate}
                                                     onChange={this.handleStartDateChange}
-                                                    placeholderText="Data de Atendimento"
+                                                    placeholderText="Data de Procedimento"
                                                     dropdownMode="select"
                                                     className="text-center"
+                                                    value={this.state.procedimento.data}
                                                     /> 
                                                     <InputGroupAddon type="append">
                                                         <InputGroupText>
@@ -84,10 +95,10 @@ class Atendimento extends Component {
                                             </Col>
                                         </Row>
                                         <Row>
-                                            {/* Status */}
-                                            <Col md="3" className="form-group">
-                                                <label htmlFor="feStatus">Status</label>
-                                                <FormRadio>Finalizado</FormRadio>                   
+                                            {/* Observacoes */}
+                                            <Col md="12" className="form-group">
+                                                <label htmlFor="feObservacoes">Observações</label>
+                                                <FormTextarea id="feObservacoes" rows="5" value={this.state.procedimento.observacao} />
                                             </Col>
                                         </Row>
                                         <Button theme="accent">Cadastrar</Button>
@@ -102,4 +113,4 @@ class Atendimento extends Component {
     }
 };
 
-export default Atendimento;
+export default Editar;

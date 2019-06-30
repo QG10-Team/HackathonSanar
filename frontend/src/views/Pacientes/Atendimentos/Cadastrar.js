@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import {
     Button,
     Card,
-    CardHeader,
     Col,
     Container,
     DatePicker,
@@ -18,13 +17,16 @@ import {
     Row
   } from "shards-react";
 
-class Cadastro extends Component {
+import PageTitle from "../../../components/common/PageTitle";
+  
+class Cadastrar extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
             startDate: undefined,
-            paciente: []
+            leito: [],
+            pacientes: []
         };
 
         this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -38,20 +40,45 @@ class Cadastro extends Component {
     }
 
     render() {
+
+        const listarLeito = this.state.leito.map(leito => (
+            <option key={this.state.leito.id} value=''>{this.state.leito.nome}</option>
+        ));
+
+        const listarPacientes = this.state.pacientes.map(paciente => (
+            <option key={this.state.pacientes.id} value=''>{this.state.leito.nome}</option>
+        ));
+
         return (
-            <Container fluid className="main-content-container px-4 pb-4">     
+            <Container fluid className="main-content-container px-4 pb-4"> 
+                <Row noGutters className="page-header py-4">
+                    <PageTitle sm="4" title="Cadastrar" subtitle="Atendimento" className="text-sm-left" />
+                </Row>       
                 <Card small className="mb-4">
-                    <CardHeader className="border-bottom">
-                        <h6 className="m-0">Atendimento</h6>
-                    </CardHeader> 
                     <ListGroup flush>
                         <ListGroupItem className="p-3">
                             <Row>
                                 <Col>
                                     <Form>
                                         <Row form>
+                                            {/* Paciente */}
+                                            <Col md="4" className="form-group">
+                                                <label htmlFor="fePaciente">Paciente</label>
+                                                <FormSelect>
+                                                    <option> .: Selecione :. </option>
+                                                    {listarPacientes}
+                                                </FormSelect>
+                                            </Col>
+                                            {/* Leito */}
+                                            <Col md="4" className="form-group">
+                                                <label htmlFor="feLeito">Leito</label>
+                                                <FormSelect>
+                                                    <option> .: Selecione :. </option>
+                                                    {listarLeito}
+                                                </FormSelect>
+                                            </Col>
                                             {/* Nivel de Atendimento */}
-                                            <Col md="6" className="form-group">
+                                            <Col md="4" className="form-group">
                                                 <label htmlFor="feNivelAtendimento">Nível de Atendimento</label>
                                                 <FormSelect>
                                                     <option> .: Selecione :. </option>
@@ -63,8 +90,8 @@ class Cadastro extends Component {
                                         </Row>
                                         <Row>
                                             {/* Data do Atendimento */}
-                                            <Col md="6" className="form-group">
-                                                <label htmlFor="feDataAtendimento">Data de Atendimento</label>
+                                            <Col md="3" className="form-group">
+                                                <label htmlFor="feDataAtendimento">Data do Atendimento</label>
                                                 <InputGroup>
                                                     <DatePicker
                                                     size="sm"
@@ -81,15 +108,13 @@ class Cadastro extends Component {
                                                     </InputGroupAddon>     
                                                 </InputGroup>                                        
                                             </Col>
-                                        </Row>
-                                        <Row>
                                             {/* Status */}
-                                            <Col md="6" className="form-group">
+                                            <Col md="3" className="form-group">
                                                 <label htmlFor="feStatus">Status</label>
                                                 <FormRadio>Finalizado</FormRadio>                   
                                             </Col>
                                         </Row>
-                                        <Button theme="accent">Atualizar</Button>
+                                        <Button theme="accent">Cadastrar</Button>
                                     </Form>
                                 </Col>
                             </Row>
@@ -101,4 +126,4 @@ class Cadastro extends Component {
     }
 };
 
-export default Cadastro;
+export default Cadastrar;

@@ -10,7 +10,6 @@ import PageTitle from "../../components/common/PageTitle";
 
 import Editar from './Editar';
 import Detalhe from './Detalhe';
-import Atendimento from './Atendimento/Editar';
 
 class Informacoes extends Component{
     
@@ -26,12 +25,7 @@ class Informacoes extends Component{
                         <Detalhe />
                     </Col>
                     <Col lg="8">
-                    <Row>
                         <Editar />
-                    </Row>
-                    <Row>
-                        <Atendimento />
-                    </Row>
                     </Col>
                 </Row>
             </Container>

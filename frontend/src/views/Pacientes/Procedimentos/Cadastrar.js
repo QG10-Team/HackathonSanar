@@ -17,14 +17,14 @@ import {
     Row
   } from "shards-react";
 
-import PageTitle from "../../components/common/PageTitle";
+import PageTitle from "../../../components/common/PageTitle";
   
-class Cadastro extends Component {
+class Cadastrar extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            startDate: undefined
+            startDate: undefined,
         };
 
         this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -38,10 +38,11 @@ class Cadastro extends Component {
     }
 
     render() {
+
         return (
             <Container fluid className="main-content-container px-4 pb-4"> 
                 <Row noGutters className="page-header py-4">
-                    <PageTitle sm="4" title="Cadastro" subtitle="Pacientes" className="text-sm-left" />
+                    <PageTitle sm="4" title="Cadastrar" subtitle="Procedimento" className="text-sm-left" />
                 </Row>       
                 <Card small className="mb-4">
                     <ListGroup flush>
@@ -49,40 +50,37 @@ class Cadastro extends Component {
                             <Row>
                                 <Col>
                                     <Form>
-                                        <Row form>
-                                            {/* Nome */}
+                                        <Row>
+                                            {/* Descricao */}
                                             <Col md="6" className="form-group">
-                                                <label htmlFor="feNome">Nome</label>
+                                                <label htmlFor="feDescricao">Descricao</label>
                                                 <FormInput
-                                                    id="feNome"
-                                                    placeholder="Nome"
+                                                    id="feDescricao"
+                                                    placeholder="Descricao"
                                                     value=""
                                                     onChange={() => {}}
                                                 />
                                             </Col>
-                                            {/* E-mail */}
-                                            <Col md="6" className="form-group">
-                                                <label htmlFor="feEmail">E-mail</label>
+                                            {/* Horario */}
+                                            <Col md="3" className="form-group">
+                                                <label htmlFor="feHora">Horário</label>
                                                 <FormInput
-                                                    type="email"
-                                                    id="feEmail"
-                                                    placeholder="E-mail"
+                                                    id="feHora"
+                                                    placeholder="Hora"
                                                     value=""
                                                     onChange={() => {}}
-                                                    autoComplete="email"
+                                                    type="time"
                                                 />
                                             </Col>
-                                        </Row>
-                                        <Row form>
-                                            {/* Data de Nascimento */}
-                                            <Col md="4" className="form-group">
-                                                <label htmlFor="feDataNascimento">Data de Nascimento</label>
+                                            {/* Data do Procedimento */}
+                                            <Col md="3" className="form-group">
+                                                <label htmlFor="feDataProcedimento">Data do Procedimento</label>
                                                 <InputGroup>
                                                     <DatePicker
                                                     size="sm"
                                                     selected={this.state.startDate}
                                                     onChange={this.handleStartDateChange}
-                                                    placeholderText="Data de Nascimento"
+                                                    placeholderText="Data de Procedimento"
                                                     dropdownMode="select"
                                                     className="text-center"
                                                     /> 
@@ -91,30 +89,10 @@ class Cadastro extends Component {
                                                             <i className="material-icons">&#xE916;</i>
                                                         </InputGroupText>
                                                     </InputGroupAddon>     
-                                                </InputGroup>                                            
-                                            </Col>
-                                            {/* Peso */}
-                                            <Col md="4" className="form-group">
-                                                <label htmlFor="fePeso">Peso</label>
-                                                <FormInput
-                                                    id="fePeso"
-                                                    placeholder="Peso"
-                                                    value=""
-                                                    onChange={() => {}}
-                                                />
-                                            </Col>
-                                            {/* Altura */}
-                                            <Col md="4" className="form-group">
-                                                <label htmlFor="feAltura">Altura</label>
-                                                <FormInput
-                                                    id="feAltura"
-                                                    placeholder="Altura"
-                                                    value=""
-                                                    onChange={() => {}}
-                                                />
+                                                </InputGroup>                                        
                                             </Col>
                                         </Row>
-                                        <Row form>
+                                        <Row>
                                             {/* Observacoes */}
                                             <Col md="12" className="form-group">
                                                 <label htmlFor="feObservacoes">Observações</label>
@@ -133,4 +111,4 @@ class Cadastro extends Component {
     }
 };
 
-export default Cadastro;
+export default Cadastrar;
