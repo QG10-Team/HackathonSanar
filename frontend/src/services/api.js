@@ -9,8 +9,8 @@ API.interceptors.request.use(async config => {
   // if (token) config.headers.authorization = `Bearer ${token}`;
 
   config.headers["Access-Control-Allow-Origin"] = "*";
-  config.headers["Access-Control-Allow-Credentials"] = "true";
-  config.headers["Content-type"] = "application/json; charset=UTF-8";
+  // config.headers["Access-Control-Allow-Credentials"] = "true";
+  // config.headers["Content-type"] = "application/json; charset=UTF-8";
   config.headers["Access-Control-Allow-Methods"] = "GET,PUT,POST,DELETE";
 
   return config;
