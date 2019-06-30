@@ -35,10 +35,12 @@ class Login extends React.Component {
     //   localStorage.setItem("@tokenMalta", token);
     //   localStorage.setItem("@nameMalta", user.name);
     //   // toast.success("Login feito com sucesso");
-    //   return this.props.history.push("/");
     // } else {
     //   // toast.error("Email ou senha incorreto");
     // }
+    if (this.state.password && this.state.email) {
+      return this.props.history.push("/");
+    }
   };
 
   handleChange = event => {
@@ -76,7 +78,7 @@ class Login extends React.Component {
                 id="main-logo"
                 className="d-inline-block align-top mr-1"
                 style={{ maxWidth: "180px", marginTop: "20px" }}
-                // src={require("../../images/logo2.png")}
+                src={require("../../images/logo.png")}
                 alt="Pront QRCode"
               />
             </div>
