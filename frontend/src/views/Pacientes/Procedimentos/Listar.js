@@ -19,7 +19,11 @@ class Listar extends Component {
     render() {
 
         const listaProcedimento = this.state.procedimento.map(procedimento => (
-            <Procedimento />
+            <Procedimento 
+                descricao={this.state.procedimento.descricao} 
+                status={this.state.procedimento.status}
+                horario={this.state.procedimento.horario}
+                dataProcedimento={this.state.procedimento.dataProcedimento}/>
         ));
 
         return(
