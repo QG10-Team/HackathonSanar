@@ -130,7 +130,12 @@ class Leitos extends React.Component {
                       {/* Content :: Actions */}
                       <div className="blog-comments__actions">
                         <ButtonGroup size="sm">
-                          <Button theme="white">
+                          <Button
+                            theme="white"
+                            onClick={() =>
+                              this.props.history.push(`/${paciente.id}`)
+                            }
+                          >
                             <span className="text-success">
                               <i className="material-icons">check</i>
                             </span>{" "}
