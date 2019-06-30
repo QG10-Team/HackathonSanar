@@ -28,61 +28,73 @@ export default [
   },
   {
     path: "/dashboard",
+    exact: true,
     layout: DefaultLayout,
     component: Dashboard
   },
   {
     path: "/leitos",
+    exact: true,
     layout: DefaultLayout,
     component: Leitos
   },
   {
     path: "/pacientes",
+    exact: true,
     layout: DefaultLayout,
     component: Lista
   },
   {
     path: "/pacientes/cadastrar",
+    exact: true,
     layout: DefaultLayout,
     component: CadastrarPacientes
   },
   {
     path: "/informacoes",
+    exact: true,
     layout: DefaultLayout,
     component: Informacoes
   },
   {
     path: "/atendimento/cadastrar/:id",
+    exact: true,
     layout: DefaultLayout,
     component: CadastrarAtendimento
   },
   {
     path: "/atendimento/editar/:id",
+    exact: true,
     layout: DefaultLayout,
     component: EditarAtendimento
   },
   {
     path: "/atendimento/listar",
+    exact: true,
     layout: DefaultLayout,
     component: ListarAtendimento
   },
   {
     path: "/atendimento/visualizar",
+    exact: true,
     layout: DefaultLayout,
     component: VisualizarAtendimento
   },
   {
     path: "/procedimento/cadastrar",
+    exact: true,
     layout: DefaultLayout,
     component: CadastrarProcedimento
   },
   {
     path: "/procedimento/editar",
+    exact: true,
     layout: DefaultLayout,
     component: EditarProcedimento
   },
   {
     path: "/procedimento/listar",
+    exact: true,
     layout: DefaultLayout,
     component: ListarProcedimento
   }

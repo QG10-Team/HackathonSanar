@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { Card, CardBody, CardHeader, Col, Container, Row } from "shards-react";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Col,
+  Container,
+  Row,
+  Button
+} from "shards-react";
 
 import PageTitle from "../../../components/common/PageTitle";
 import Paciente from "./Paciente";
@@ -42,7 +50,23 @@ class Pacientes extends Component {
           <Col>
             <Card small className="mb-4">
               <CardHeader className="border-bottom">
-                <h6 className="m-0">Pacientes</h6>
+                <Row
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "0 10px"
+                  }}
+                >
+                  <h6 className="m-0">Pacientes</h6>
+                  <Button
+                    size="sm"
+                    theme="success"
+                    className="mb-2 mr-1"
+                    href="/pacientes/cadastrar"
+                  >
+                    Novo Paciente
+                  </Button>
+                </Row>
               </CardHeader>
               <CardBody className="p-0 pb-3">
                 <table className="table mb-0">

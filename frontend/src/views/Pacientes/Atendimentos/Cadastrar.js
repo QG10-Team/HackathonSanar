@@ -65,11 +65,10 @@ class Cadastrar extends Component {
   };
 
   handleSubmit = async e => {
-    const response = await API.get("/cadastrar_atendimento", {
-      ...this.state.atendimento,
-      id_paciente: this.state.id
-    });
-    console.log(response);
+    const response = await API.get(
+      `/cadastrar_atendimento?id_paciente=${this.state.id}&id_usuario=${this.state.id_usuario}&nivel=${this.state.nivel}&descricao=${this.state.descricao}&id_leito=${this.state.leito}`
+    );
+    return this.props.history.push("/pacientes");
   };
 
   render() {

@@ -10,14 +10,14 @@ const paciente = props => (
     <td>{props.paciente.peso}</td>
     <td>{props.paciente.altura}</td>
     <td>
-      <a
+      {/* <a
         href={`/atendimento/editar/${props.paciente.id}`}
         size="sm"
         theme="white"
         className="mb-2 mr-1"
       >
         <i class="material-icons">edit</i>
-      </a>
+      </a> */}
       <a
         href={`/atendimento/cadastrar/${props.paciente.id}`}
         size="sm"
