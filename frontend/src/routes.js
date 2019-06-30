@@ -75,7 +75,7 @@ export default [
     component: ListarAtendimento
   },
   {
-    path: "/atendimento/visualizar",
+    path: "/atendimento/visualizar/:id",
     exact: true,
     layout: DefaultLayout,
     component: VisualizarAtendimento
